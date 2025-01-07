@@ -1,0 +1,56 @@
+/* Base styling for the webpage */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background: indianred;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 25px;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+}
+
+/* Styling for links */
+a {
+    color: indianred;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for images */
+div img {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Flexbox container for images */
+div {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+img {
+    width: 48%;
+}
